@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-mixin AppColor {
+mixin AppColors {
   static const Color backgroundDark = Color(0xFF22242E);
   static const Color backgroundLight = Color(0xFF353B44);
   static const Color pinkDark = Color(0xFFFD5C89);

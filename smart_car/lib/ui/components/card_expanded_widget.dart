@@ -21,7 +21,7 @@ class CardExpandedWidget extends StatelessWidget {
       height: 320,
       width: 165,
       child: Card(
-        color: AppColor.backgroundLight,
+        color: AppColors.backgroundLight,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
         ),
@@ -35,7 +35,7 @@ class CardExpandedWidget extends StatelessWidget {
                 title,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: AppColor.white,
+                  color: AppColors.white,
                   fontSize: 14,
                   fontWeight: FontWeight.w200
                 ),
@@ -43,7 +43,7 @@ class CardExpandedWidget extends StatelessWidget {
               const SizedBox(height: 8),
               const Icon(
                 Icons.alarm,
-                color: AppColor.gold,
+                color: AppColors.gold,
                 size: 34,
               ),
               const SizedBox(height: 8),
@@ -51,7 +51,7 @@ class CardExpandedWidget extends StatelessWidget {
                 primaryLabel,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: AppColor.white,
+                  color: AppColors.white,
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
                 ),
@@ -62,13 +62,13 @@ class CardExpandedWidget extends StatelessWidget {
                   horizontal: 24,
                 ),
                 child: Divider(
-                  color: AppColor.white,
+                  color: AppColors.white,
                   height: 3,
                 ),
               ),
               const Icon(
                 CupertinoIcons.bolt,
-                color: AppColor.blue,
+                color: AppColors.blue,
                 size: 34,
               ),
               const SizedBox(height: 8),
@@ -76,7 +76,7 @@ class CardExpandedWidget extends StatelessWidget {
                 secondLabel,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: AppColor.white,
+                  color: AppColors.white,
                   fontSize: 14,
                   fontWeight: FontWeight.w500,
                 ),

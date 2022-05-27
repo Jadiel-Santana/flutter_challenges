@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import './theme.dart';
 
   ThemeData appThemeDark() {
-    const Color primaryColor = AppColor.backgroundDark;
-    const Color white = AppColor.white;
+    const Color primaryColor = AppColors.backgroundDark;
+    const Color white = AppColors.white;
 
     return ThemeData(
       visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -22,7 +22,7 @@ import './theme.dart';
         color: primaryColor,
       ),
       cardTheme: CardTheme(
-        color: AppColor.backgroundLight,
+        color: AppColors.backgroundLight,
         elevation: 1,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(8),

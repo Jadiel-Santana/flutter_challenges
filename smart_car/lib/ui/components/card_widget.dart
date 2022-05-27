@@ -20,7 +20,7 @@ class CardWidget extends StatelessWidget {
       height: 160,
       width: 165,
       child: Card(
-        color: AppColor.backgroundLight,
+        color: AppColors.backgroundLight,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
         ),
@@ -33,7 +33,7 @@ class CardWidget extends StatelessWidget {
                 title,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: AppColor.white,
+                  color: AppColors.white,
                   fontSize: 14,
                     fontWeight: FontWeight.w200
                 ),
@@ -43,7 +43,7 @@ class CardWidget extends StatelessWidget {
                 value,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: AppColor.white,
+                  color: AppColors.white,
                   fontSize: 40,
                   fontWeight: FontWeight.bold,
                 ),
@@ -52,7 +52,7 @@ class CardWidget extends StatelessWidget {
                 label,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: AppColor.white,
+                  color: AppColors.white,
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
                 ),
